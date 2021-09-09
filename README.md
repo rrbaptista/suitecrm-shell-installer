@@ -1,7 +1,7 @@
 # suitecrm-shell-installer
 A useful shell script for people who want to deploy SuiteCRM in a web server
 
-Do you want to install SuiteCRM on your web server but don't want to have the hassle to do a manual installation? So this shell script is for you! Avoid errors and or a bad installation!
+Do you want to install SuiteCRM on your web server but don't want to have the hassle to do a manual installation? So this shell script is for you! Avoid errors or a bad installation!
 
 What you need to use this:
 1) Download the script on your web server
