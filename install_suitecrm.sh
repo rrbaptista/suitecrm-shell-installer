@@ -353,7 +353,8 @@ read -p "Are you sure you want these settings? Answer 'Y' (yes) to install Suite
 		;;
 		
 		* )
-		echo "Invalid Answer"
+		echo "Starting install.php script to finish the SuiteCRM deployment. If this fails, go to 'example.com/$appname/install.php?goto=SilentInstall'"
+		sleep 5
 		#Executes the silent installer using PHP
 		echo "Starting install.php script to finish the SuiteCRM deployment"
 		php -r "\$_SERVER['HTTP_HOST'] = 'localhost'; \$_SERVER['REQUEST_URI'] = 'install.php';\$_REQUEST = array('goto' => 'SilentInstall', 'cli' => true);require_once 'install.php';";
